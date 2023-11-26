@@ -1,10 +1,46 @@
-.block-1{
-  width:200px;
-  height:200px;
+.box{
+  width: 800px;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+.top{
+  width: 600px;
+  height: 200px;
+  background-color: yellow;
+}
+.middle{
+  width: 600px;
+  background-color: blueviolet;
+}
+.middle::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.middle-left{
+  float: left;
+  width: 300px;
+  height: 200px;
   background-color: red;
 }
-.block-2{
-  width:200px;
-  height:200px;
-  background: blue; 
+.middle-right{
+  float: left;
+  width: 300px;
+  height: 200px;
+  background-color: orangered;
+}
+.bottom{
+  width: 600px;
+  height: 200px;
+  background-color: green;
+}
+.hover-text{
+  color: blue;
+}
+.hover-text:hover{
+  color: red;
+}
+.form{
+  width: 120px;
+  height: 50px;
 }
