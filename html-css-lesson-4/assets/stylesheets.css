@@ -31,14 +31,40 @@
   text-decoration: none;
 }
 .work-list{
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-}
-.work-item{
-  width: 250px;
-  margin-left:10px;
+  width: 80%;
   
 }
+.work-item{
+  width: 25%;
+  margin-left: 10px;
+  border:  1px solid rgba(247, 247, 251, 0.742);
+  box-shadow: 0px 6px 5px  rgba(0, 0, 0, 0.2) ;
+}
+.work-link{
+  text-decoration: none;
+}
 .work-image{
-  width: 250px;
+  width: 100%;
+}
+.work-title{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family:  "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", sans-serif;
+  color: black;
+}
+.work-text{
+  margin-left:  20px;
+  margin-top: 10px;
+  font-family:  "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", sans-serif;
+  color: black;
+}
+.news{
+  width: 80%;
+  height: 100px;
+  margin: 10px  auto 0;
+  background-color: darkgreen;
 }
