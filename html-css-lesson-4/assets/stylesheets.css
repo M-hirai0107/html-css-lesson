@@ -67,4 +67,41 @@
   height: 100px;
   margin: 10px  auto 0;
   background-color: darkgreen;
+  display:flex;
+}
+.news-title{
+  width: 15%;
+}
+.news-titles{
+  margin: 30px 50px;
+  line-height: 1px;
+  font-weight: bolder;
+}
+.news-list{
+  width: 85%;
+}
+.news-item {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family:  "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", sans-serif;
+  color: black;
+  display: flex;
+}
+.news-day{
+  margin-right: 50px;
+  width: 15%; 
+}
+.news-text{
+  width: 85%;
+}
+.news-link{
+  color:black;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.work-lists{
+  text-align: center;
+  font-weight: bolder;
 }
